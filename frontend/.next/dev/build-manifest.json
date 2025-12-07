@@ -1,0 +1,25 @@
+{
+  "pages": {
+    "/_app": []
+  },
+  "devFiles": [],
+  "polyfillFiles": [
+    "static/chunks/47c7f_next_dist_build_polyfills_polyfill-nomodule.js"
+  ],
+  "lowPriorityFiles": [
+    "static/development/_ssgManifest.js",
+    "static/development/_buildManifest.js"
+  ],
+  "rootMainFiles": [
+    "static/chunks/[turbopack]_browser_dev_hmr-client_hmr-client_ts_dac8c384._.js",
+    "static/chunks/47c7f_next_dist_compiled_react-dom_d1c693e2._.js",
+    "static/chunks/47c7f_next_dist_compiled_react-server-dom-turbopack_fc5a068e._.js",
+    "static/chunks/47c7f_next_dist_compiled_next-devtools_index_3af6ec0a.js",
+    "static/chunks/47c7f_next_dist_compiled_a24926a1._.js",
+    "static/chunks/47c7f_next_dist_client_50e5a8dd._.js",
+    "static/chunks/47c7f_next_dist_3432b6a4._.js",
+    "static/chunks/47c7f_@swc_helpers_cjs_58d3d638._.js",
+    "static/chunks/Desktop_IIA_BTS-2025-2026_JS_Online_tuto_full_stack_frontend_a0ff3932._.js",
+    "static/chunks/turbopack-Desktop_IIA_BTS-2025-2026_JS_Online_tuto_full_stack_frontend_cdb24f41._.js"
+  ]
+}

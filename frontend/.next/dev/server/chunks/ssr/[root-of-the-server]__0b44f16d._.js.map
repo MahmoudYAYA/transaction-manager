@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 94, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/mahmo/Desktop/IIA/BTS-2025-2026/JS/Online_tuto/full_stack/frontend/app/api.ts"],"sourcesContent":["import axios from \"axios\";\r\n\r\nconst api = axios.create({\r\n  baseURL: process.env.NEXT_PUBLIC_API_URL + \"api/\",\r\n});\r\n\r\nexport default api;\r\n"],"names":[],"mappings":";;;;AAAA;;AAEA,MAAM,MAAM,wOAAK,CAAC,MAAM,CAAC;IACvB,SAAS,4DAAkC;AAC7C;uCAEe"}},
+    {"offset": {"line": 108, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/mahmo/Desktop/IIA/BTS-2025-2026/JS/Online_tuto/full_stack/frontend/app/page.tsx"],"sourcesContent":["\"use client\";\nimport api from \"./api\";\nimport { useState } from \"react\";\n\ntype Transaction = {\n  id: string;\n  text: string;\n  amount: number;\n  created_at: string;\n};\n\nexport default function Home() {\n  const [transaction, setTransactions] = useState<Transaction[]>([]);\n\n  const getTransactions = async () => {\n    try {\n      const res = await api.get<Transaction[]>(\"transactions/\");\n      setTransactions(res.data);\n    } catch (error) {}\n  };\n\n  return <button className=\"btn btn-sm\">tes</button>;\n}\n"],"names":[],"mappings":";;;;;AACA;AACA;AAFA;;;;AAWe,SAAS;IACtB,MAAM,CAAC,aAAa,gBAAgB,GAAG,IAAA,ySAAQ,EAAgB,EAAE;IAEjE,MAAM,kBAAkB;QACtB,IAAI;YACF,MAAM,MAAM,MAAM,6MAAG,CAAC,GAAG,CAAgB;YACzC,gBAAgB,IAAI,IAAI;QAC1B,EAAE,OAAO,OAAO,CAAC;IACnB;IAEA,qBAAO,sUAAC;QAAO,WAAU;kBAAa;;;;;;AACxC"}}]
+}
