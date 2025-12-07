@@ -1,0 +1,44 @@
+POST http://127.0.0.1:8000/api/transactions/
+Content-Type: application/json
+
+{
+    "text": "salaire juillet",
+    "amount": 2540,
+    "description" : "Votre selaire est net"
+}
+
+
+### 
+GET http://127.0.0.1:8000/api/transactions/
+
+
+### 
+DELETE http://127.0.0.1:8000/api/transactions/6849acdc-b588-4bb7-b869-b1814e1ebf47/
+
+
+
+###
+# Pour la method PUT on est boligé de modifier tous les chmaps quand on veux modifier 
+PUT  http://127.0.0.1:8000/api/transactions/
+Content-Type: application/json
+
+{
+    "text": "salaie june",
+    "amount": "2500.00"
+}
+
+
+
+
+
+
+###
+# la PATCH on peux modifier une seul champs contrairement à la PUT 
+PATCH  http://127.0.0.1:8000/api/transactions/
+Content-Type: application/json
+
+{
+    "text": "salaie june",
+    "amount": "2500.00"
+}
+
