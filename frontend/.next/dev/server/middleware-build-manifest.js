@@ -1,6 +1,31 @@
 globalThis.__BUILD_MANIFEST = {
   "pages": {
-    "/_app": []
+    "/_app": [
+      "static/chunks/23fa1_next_dist_compiled_93de127c._.js",
+      "static/chunks/23fa1_next_dist_shared_lib_503ca78b._.js",
+      "static/chunks/23fa1_next_dist_client_3e116d9d._.js",
+      "static/chunks/23fa1_next_dist_14fc2f93._.js",
+      "static/chunks/23fa1_next_app_7ed24eaf.js",
+      "static/chunks/[next]_entry_page-loader_ts_3efa4553._.js",
+      "static/chunks/23fa1_react-dom_c069f187._.js",
+      "static/chunks/23fa1_a7f33e82._.js",
+      "static/chunks/[root-of-the-server]__644254d9._.js",
+      "static/chunks/9d287_BTS-2025-2026_JS_Online_tuto_transaction-manager_frontend_pages__app_2da965e7._.js",
+      "static/chunks/e3520_BTS-2025-2026_JS_Online_tuto_transaction-manager_frontend_pages__app_d57879a7._.js"
+    ],
+    "/_error": [
+      "static/chunks/23fa1_next_dist_compiled_93de127c._.js",
+      "static/chunks/23fa1_next_dist_shared_lib_6293b507._.js",
+      "static/chunks/23fa1_next_dist_client_3e116d9d._.js",
+      "static/chunks/23fa1_next_dist_a0a87bb8._.js",
+      "static/chunks/23fa1_next_error_992a533b.js",
+      "static/chunks/[next]_entry_page-loader_ts_3033dea0._.js",
+      "static/chunks/23fa1_react-dom_c069f187._.js",
+      "static/chunks/23fa1_a7f33e82._.js",
+      "static/chunks/[root-of-the-server]__fe1db7de._.js",
+      "static/chunks/9d287_BTS-2025-2026_JS_Online_tuto_transaction-manager_frontend_pages__error_2da965e7._.js",
+      "static/chunks/e3520_BTS-2025-2026_JS_Online_tuto_transaction-manager_frontend_pages__error_0342ece1._.js"
+    ]
   },
   "devFiles": [],
   "polyfillFiles": [
