@@ -1,0 +1,16 @@
+# Frontend
+node_modules
+.next
+
+# Backend Python
+__pycache__
+*.pyc
+*.pyo
+
+# Base de données locale
+db.sqlite3
+
+# Variables d'environnement (contient des secrets)
+.env
+.env.local
+.env*.local

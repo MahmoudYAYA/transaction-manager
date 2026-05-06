@@ -1,8 +1,16 @@
 import axios from "axios";
 
-// le front contact le backend port(3000) contact le backend port(800) grace à ce axios et NEXT_PUBLIC_API_URL
 const api = axios.create({
   baseURL: process.env.NEXT_PUBLIC_API_URL + "api/",
+});
+
+// Section 5 : ajoute automatiquement le token JWT à chaque requête
+api.interceptors.request.use((config) => {
+  const token = localStorage.getItem("access_token");
+  if (token) {
+    config.headers.Authorization = `Bearer ${token}`;
+  }
+  return config;
 });
 
 export default api;
