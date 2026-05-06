@@ -4,20 +4,20 @@ globalThis.__BUILD_MANIFEST = {
   },
   "devFiles": [],
   "polyfillFiles": [
-    "static/chunks/47c7f_next_dist_build_polyfills_polyfill-nomodule.js"
+    "static/chunks/23fa1_next_dist_build_polyfills_polyfill-nomodule.js"
   ],
   "lowPriorityFiles": [],
   "rootMainFiles": [
-    "static/chunks/[turbopack]_browser_dev_hmr-client_hmr-client_ts_dac8c384._.js",
-    "static/chunks/47c7f_next_dist_compiled_react-dom_d1c693e2._.js",
-    "static/chunks/47c7f_next_dist_compiled_react-server-dom-turbopack_fc5a068e._.js",
-    "static/chunks/47c7f_next_dist_compiled_next-devtools_index_3af6ec0a.js",
-    "static/chunks/47c7f_next_dist_compiled_a24926a1._.js",
-    "static/chunks/47c7f_next_dist_client_50e5a8dd._.js",
-    "static/chunks/47c7f_next_dist_3432b6a4._.js",
-    "static/chunks/47c7f_@swc_helpers_cjs_58d3d638._.js",
-    "static/chunks/Desktop_IIA_BTS-2025-2026_JS_Online_tuto_full_stack_frontend_a0ff3932._.js",
-    "static/chunks/turbopack-Desktop_IIA_BTS-2025-2026_JS_Online_tuto_full_stack_frontend_cdb24f41._.js"
+    "static/chunks/[turbopack]_browser_dev_hmr-client_hmr-client_ts_887d74af._.js",
+    "static/chunks/23fa1_next_dist_compiled_react-dom_d39e0e33._.js",
+    "static/chunks/23fa1_next_dist_compiled_react-server-dom-turbopack_63e1ba1c._.js",
+    "static/chunks/23fa1_next_dist_compiled_next-devtools_index_bfe07e65.js",
+    "static/chunks/23fa1_next_dist_compiled_a5e476db._.js",
+    "static/chunks/23fa1_next_dist_client_47fe5cf0._.js",
+    "static/chunks/23fa1_next_dist_5b06d3e1._.js",
+    "static/chunks/23fa1_@swc_helpers_cjs_7193d2e9._.js",
+    "static/chunks/Desktop_IIA_BTS-2025-2026_JS_Online_tuto_transaction-manager_frontend_a0ff3932._.js",
+    "static/chunks/88e7d_IIA_BTS-2025-2026_JS_Online_tuto_transaction-manager_frontend_7719ad54._.js"
   ]
 };
 globalThis.__BUILD_MANIFEST.lowPriorityFiles = [
